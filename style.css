@@ -106,3 +106,18 @@ h1 {
     background-color: #48d1b7;
     transform: translateY(-2px);
 }
+
+.contact-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--primary-color);
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.contact-link:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
